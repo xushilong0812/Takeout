@@ -1,0 +1,10 @@
+<!--miniprogram/pages/list/tapImg/tapImg.wxml-->
+<text>miniprogram/pages/list/tapImg/tapImg.wxml</text> 
+
+
+<view class="head-img" bindtap="tapImg">
+      <image src="{{username}}"></image>
+    </view>
+<view bindtap="handleBtn"> 
+  更改头像
+</view>

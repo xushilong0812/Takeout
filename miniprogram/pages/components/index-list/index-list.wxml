@@ -1,0 +1,18 @@
+<!--components/index-list/index-list.wxml-->
+<template name="indexitem">
+<view class="index-li"  bindtap="taprouter" data-id="{{id}}">
+  <view class="indexmain">
+    <image src="{{imgurl}}" class="index-img"></image>
+  </view>
+  <view class="index-text">{{title}}</view>
+  <view class="main-span">半年售{{sell}}+ | {{distance}}km</view>
+  <view class="main-loot">
+    <view class="main-loot-left">
+      ￥{{price}} <text class="span">￥{{value}}</text>
+    </view>
+    <view class="main-loot-right">
+      抢
+    </view>
+  </view>
+</view>
+</template>

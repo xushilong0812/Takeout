@@ -1,0 +1,121 @@
+<!--miniprogram/pages/components/shopList/shopList.wxml-->
+<import src="../star/star"></import>
+<import src="../comment/comment"></import>
+<import src="../menu/menu"></import>
+
+<view class="box">
+  <view class="head">
+    <view>
+      <image class="imgUrl" src="{{list.detailInfo.imgurl}}"></image>
+    </view>
+    <view class="head-text">
+      <view class="head-title">
+        {{list.detailInfo.brandname}}
+      </view>
+      <view class="head-span">
+        {{list.detailInfo.title}}
+      </view>
+    </view>
+  </view>
+  <!-- 价格 -->
+  <view class="main">
+    <view class="main-">
+      <text class="mian-money"> {{list.detailInfo.price}}<text class="mian-money-span" style=" color: #39cebe;"> 元</text> </text>
+      <text class="mian-money-span"> 门市价:{{list.detailInfo.value}}元 </text>
+      <view class="rush" bindtap="tappay">
+        立即抢购
+      </view>
+      <!-- 立即抢购 -->
+    
+    </view>
+
+  </view>
+  <!-- 价格  end-->
+  <!-- 退款 自动退 -->
+  <view class="div">
+    <view class="after">
+      <view class="after-text ">
+        <view>
+          <icon></icon>支持随时退款
+        </view>
+        <view>
+          <icon></icon>支持过期自动退
+        </view>
+      </view>
+      <view>
+        <view>
+          <icon></icon>已售{{list.detailInfo.solds}}
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 退款 自动退 end -->
+
+  <!-- 星级  -->
+  <view class="star">
+ <view class="star-left">
+  <template is="star" data="{{...list.detailInfo.newrating}}" />
+ </view>
+      <text class="star-right">{{list.detailInfo.newrating.count}}人评价</text>
+  </view>
+  <!-- 星级  end-->
+  <!-- 评论 -->
+  <view class="comment">
+    <view class="comment-box">
+      <template is="comment" data="{{...list}}" />
+    </view>
+  </view>
+  <!-- 评论 end -->
+  <!-- 商家信息 -->
+  <view class="shop">
+    <view class="shop-title">
+      商家信息
+    </view>
+    <view class="shop-msg">
+      <!-- 商家地址 -->
+      <view class="shop-msg-left">
+        <text class="shop-strong"> {{list.detailInfo.rdploc[0].name}}</text>
+        <view class="shop-text">{{list.detailInfo.rdploc[0].addr}}</view>
+        <view class="shop-span" bindtap="tapmap" data-data="{{list.detailInfo.rdploc[0]}}" bindtap="tapmap" > 离我距离 </view>
+      </view>
+      <!-- 电话 图标 -->
+      <view class="shop-msg-right">
+            <view>
+              <!-- 电话图标 -->
+              <icon></icon>
+            </view>
+      </view>
+    </view>
+  </view>
+  <!-- 商家信息 end-->
+  <!-- 套餐 -->
+  <view class="menu">
+    <view class="menu-title">
+      套餐
+    </view>
+    <view class="menu-ul">
+      <template is="menu" data="{{...list.detailInfo}}"></template>
+    </view>
+
+  </view>
+  <!-- 套餐 end-->
+  <!-- 购买须知 -->
+  <view class="notice">
+    <view class="notice-title"><text>购买须知</text></view>
+    <view class="notice-box">
+      <block wx:for="{{list.detailInfo.terms}}" wx:key="index">
+        <view class="notice-head">{{item.title}}</view>
+        <view class="notice-text" wx:for="{{item.content}}" wx:for-item="mitem" wx:for-index="xid" wx:key="xid">
+          <li> {{mitem}}</li>
+        </view>
+      </block>
+    </view>
+
+  </view>
+
+
+  <!-- 购买须知 end-->
+
+
+
+</view>

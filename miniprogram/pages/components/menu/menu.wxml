@@ -1,0 +1,14 @@
+<!--miniprogram/pages/components/menu/menu.wxml-->
+<template name="menu">
+  <view class="menu.title">{{menu[0][0].content}}</view>
+<block 
+  wx:for="{{menu[1]}}"
+  wx:key="index"
+>
+<view class="menu-li">
+  <text class="menu-li-1">{{item.content}}</text>
+  <text class="menu-li-2">{{item.specification}}</text>
+  <text class="menu-li-3">{{item.total}}元</text>
+</view>
+</block>
+</template>

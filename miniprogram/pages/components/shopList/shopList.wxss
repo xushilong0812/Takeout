@@ -1,0 +1,280 @@
+/* miniprogram/pages/components/shopList/shopList.wxss */
+page {
+  background-color: #F3F3F3;
+}
+
+/* 头部 图片标题 */
+.head {
+  height: 400rpx;
+  overflow: hidden;
+  position: relative;
+}
+
+.imgUrl {
+  position: absolute;
+  transform: translateY(-300rpx);
+  width: 100%;
+  height: 1000rpx;
+}
+
+.head-text {
+  position: absolute;
+  bottom: 30rpx;
+  left: 30rpx;
+}
+
+.head-title {
+  color: #fff;
+  font-size: 40rpx;
+  font-weight: 600;
+  text-shadow: 1px 1px #333
+}
+
+.head-span {
+  color: #f5f5f5;
+  font-size: 28rpx;
+  text-shadow: 1px 1px #333;
+  margin-top: 10rpx;
+}
+
+/* 头部 图片标题 end*/
+/* 价格  立即抢购 */
+.main {
+  background-color: #fff;
+  border-bottom: 1rpx solid #e5e5e5;
+  overflow: hidden;
+}
+
+.main- {
+padding: 20rpx 20rpx;
+}
+
+.mian-money {
+  color: #39cebe;
+  font-size: 60rpx;
+  font-weight: 700;
+}
+
+.mian-money-span {
+  font-size: 28rpx;
+  color: #999;
+}
+
+.rush {
+  width: 250rpx;
+  height: 80rpx;
+  float: right;
+  line-height: 80rpx;
+  background-color: #ff9900;
+  color: #fff;
+  text-align: center;
+  font-size: 40rpx;
+  border-radius: 10rpx;
+
+}
+
+/* 价格  立即抢购  end*/
+
+/* 退款 */
+.after {
+  margin: 20rpx;
+  font-size: 28rpx;
+  padding-top: 40rpx;
+  padding-bottom: 20rpx;
+}
+
+.div {
+  background-color: #fff;
+  border-bottom: 1rpx solid #e5e5e5;
+}
+
+.after-text {
+  display: flex;
+  color: #6bbd00;
+  margin-bottom: 20rpx;
+}
+
+.after-text view {
+  width: 50%;
+}
+/* 退款  end*/
+
+/* 星级 */
+.star{
+  margin-top: 20rpx;
+  background-color: #fff;
+  border-bottom: solid 1rpx #e5e5e5;
+  overflow: hidden;
+  padding: 20rpx;
+}
+.star-left{
+display: flex;
+  margin: 20prx;
+  float: left;
+}
+.star-img{
+margin-right: 10rpx;
+}
+.star-color{
+  color: #faa22f;
+font-size: 24rpx;
+}
+
+.starUrl {
+  width: 30rpx;
+  height: 30rpx;
+}
+.star-right{
+  float: right;
+font-size: 24rpx;
+color: #acacac;
+}
+/* 星级 */
+/* 评论 标题 */
+.comment{
+  background-color: #fff;
+}
+.comment-box{
+  margin: 0 20rpx;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20rpx 0;
+}
+.comment-title{
+  border: 1rpx solid #fdb338;
+  color: #fdb338;
+  padding: 10rpx;
+  border-radius: 7rpx;
+  font-size: 28rpx;
+  margin-right: 10rpx;
+  margin-bottom: 10rpx;
+}
+.add{
+  border: 1rpx solid #acacac !important;
+  color: #acacac !important;
+}
+
+/* 评论 标题 end*/
+
+/* 商家信息 */
+.shop{
+  margin: 20rpx 0;
+  background-color: #fff;
+  border-top: 1rpx solid #e5e5e5;
+  border-bottom: 1rpx solid #e5e5e5;
+
+}
+.shop-msg{
+  overflow: hidden;
+}
+.shop-title{
+  padding: 20rpx ;
+  font-size: 35rpx;
+  color: #333333;
+  border-bottom: solid 1rpx #e5e5e5;
+}
+/* 商家信息 左半部 */
+.shop-msg-left{
+  float: left;
+  margin: 20rpx;
+  line-height: 50rpx;
+}
+.shop-strong{
+  font-weight: 700;
+}
+.shop-text{
+  font-size: 24rpx;
+  color: #666666;
+}
+.shop-span{
+  font-size: 24rpx;
+  color: #faa22f;
+}
+/* 商家信息 右半部 */
+.shop-msg-right {
+  position: relative;
+  float: right;
+  width: 200rpx;
+  height:180rpx;
+  background-color: #fff;
+}
+.shop-msg-right view{
+  width: 100rpx;
+  height:100rpx;
+  border-left: 2rpx solid #e5e5e5;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+/* 商家信息 end*/
+/* 套餐 */
+.menu-title{
+    padding: 20rpx ;
+  font-size: 35rpx;
+  color: #333333;
+  border-bottom: solid 1rpx #e5e5e5;
+  background-color: #fff;
+}
+.menu.title{
+text-align: center;
+padding: 10rpx 0;
+background-color: #fff;
+}
+
+.menu-li{
+  display: flex;
+  justify-content:space-between;
+  background-color: #fff;
+  border: 1rpx solid #e5e5e5;
+  border-top: 1rpx solid #e5e5e5;
+  border-bottom: 1rpx solid #e5e5e5;
+
+}
+.menu-li text{
+  padding:20rpx 20rpx;
+  border-right: solid 1rpx #e5e5e5;
+}
+.menu-li-1{
+  width: 40%;
+}
+.menu-li-2{
+  width: 40%;
+}
+.menu-li-3{
+  width: 20%;
+}
+
+/* 套餐 end*/
+/* 购买须知 */
+.notice{
+  margin-top: 20rpx;
+  background-color: #fff;
+}
+.notice-title{
+  padding: 20rpx ;
+  font-size: 35rpx;
+  color: #333333;
+  border-bottom: solid 1rpx #e5e5e5;
+}
+.notice-head{
+  color: #ff9900;
+  line-height: 70rpx;
+}
+.notice-text{
+margin-left: 10rpx;
+font-size: 28rpx;
+}
+.notice-text li{
+  color: #333333;
+  line-height: 40rpx;
+}
+.notice-box{
+padding: 20rpx;
+}
+
+/* 购买须知 end*/
+
+
+
+

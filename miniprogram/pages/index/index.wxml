@@ -1,0 +1,48 @@
+<!--index.wxml-->
+<import src="../components/index-list/index-list"></import>
+
+<view class="custom-bar" style="height:{{navHeight}}px">
+  <view class="custom-bar__wrapper" style="margin-top:{{searchMarginTop}}px; height: {{searchHeight}}px;width: {{searchWidth}}px" >
+    <text>郑州</text>
+    <view class="search-group">
+      <input class="search-group__input" auto-focus placeholder="输入点什么吧"/>
+    </view>
+  </view>
+</view>
+<!-- 头部 -->
+<view class="box">
+  <view wx:for="{{list}}" wx:for-index="idx" wx:for-item="item" wx:key="idx" class="nav">
+    <view wx:for="{{item}}" wx:for-index="id1x" wx:for-item="item1" wx:key="id1x" view class="li">
+      <image src="{{item1.imgUrl}}" class="li-img"></image>
+      <view class="li-text">{{item1.title}}</view>
+    </view>
+  </view>
+<!-- 内容部分 -->
+<view class="main">
+   <view class="main-head">
+     <view class="main-tit {{show==1?'show':''}}" bindtap="tapshow" data-show='1'>
+        今日特价
+     </view>
+     <view class="main-tit {{show==2?'show':''}}" bindtap="tapshow" data-show='2'>
+        猜你喜欢
+     </view>
+   </view>
+ 
+   <view class="main-content">
+        <view class="main-li">
+        <block wx:for="{{shop}}" wx:key='index'>
+          <template is="indexitem" data="{{...item}}" />
+        </block>
+       
+        </view>
+       
+   </view>
+
+
+</view>
+
+
+
+
+
+</view>

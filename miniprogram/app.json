@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/components/shopList/shopList",
+    "pages/list/list",
+    "pages/list/logs/logs",
+    "pages/list/out/out",
+    "pages/list/tapImg/tapImg",
+    "pages/components/index-list/index-list",
+    "pages/components/star/star",
+    "pages/components/comment/comment",
+    "pages/components/menu/menu",
+    "pages/components/shopList/pay/pay"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffc300",
+    "navigationBarTitleText": "巴适外卖",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#000",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./icon/home.png",
+        "selectedIconPath": "./icon/home1.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "我的",
+        "iconPath": "./icon/my.png",
+        "selectedIconPath": "./icon/my1.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

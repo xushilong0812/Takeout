@@ -1,0 +1,8 @@
+<!--miniprogram/pages/components/comment/comment.wxml-->
+<template name="comment">
+  <block wx:for="{{commentLabelsInfo}}" wx:key="index">
+    <text class="comment-title {{item.isPositive===1?'':'add'}}">
+      <text>{{item.tag}}{{item.count}}</text>
+    </text>
+  </block>
+</template>

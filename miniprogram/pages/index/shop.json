@@ -1,0 +1,44 @@
+{
+  "title": "特价",
+  "list": [{
+    "id": "001",
+    "title": "小红鸡炒鸡餐厅·小红鸡炒鸡+烩面",
+    "sell": "18830",
+    "distance": "1.1",
+    "price": "42.8",
+    "value": "58",
+    "imgurl": "//p0.meituan.net/deal/58d02697128b331dafbf17b924558552280666.jpg"
+  }, {
+    "id": "002",
+    "title": "胡闯渔粉·胡闯青麻椒渔",
+    "sell": "2598",
+    "distance": "2.5",
+    "price": "11",
+    "value": "13",
+    "imgurl": "//p0.meituan.net/deal/c6133983d70be2239c28cf97e6afb88d49132.jpg"
+  }, {
+    "id": "003",
+    "title": "小牛章鱼水煎肉·猪大哥的二两肉+黑牛五花+章鱼+小猪小牛",
+    "sell": "2612",
+    "distance": "7.2",
+    "price": "138",
+    "value": "238",
+    "imgurl": "//p1.meituan.net/deal/6f42f6244d3376635a9ce8e427cd038f107533.jpg"
+  }, {
+    "id": "004",
+    "title": "孟夫子煎包·煎包两掺+红豆粥+萝卜条",
+    "sell": "18830",
+    "distance": "5.1",
+    "price": "10.8",
+    "value": "13",
+    "imgurl": "//p0.meituan.net/deal/051db8816554f15bb78d4e25e9b072f338150.jpg"
+  }, {
+    "id": "005",
+    "title": "和米堂+原味章鱼烧",
+    "sell": "2834",
+    "distance": "0.9 ",
+    "price": "13.8",
+    "value": "15",
+    "imgurl": "//p0.meituan.net/deal/__49103369__5564617.jpg"
+  }]
+}

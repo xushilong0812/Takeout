@@ -1,0 +1,233 @@
+{
+  "id": "005",
+  "list": {
+    "$meta": {
+      "knbJS": "//s1.meituan.net/bs/knb/v1.6.5/knb.js",
+      "adunionJS": "//h5.dianping.com/app/adu-track/adunion-track.js",
+      "catJs": "//www.dpfile.com/app/owl/static/owl_latest.js",
+      "catDevMode": false,
+      "uuid": "EE4AC421FAFFED0E3F014314764098CF5AE221A4D9C5D391C3AEB1A8A1D45526",
+      "iuuid": "EE4AC421FAFFED0E3F014314764098CF5AE221A4D9C5D391C3AEB1A8A1D45526",
+      "userId": "0",
+      "cityId": "73",
+      "userName": "",
+      "scene": "i",
+      "cityName": "郑州",
+      "id": 26687539,
+      "showAppDownload": false,
+      "appDownloadBannerConfig": {
+        "isAndroid": false,
+        "isIPhone": true,
+        "isWx": false,
+        "isInApp": false,
+        "isOpenApp": true,
+        "isShow": true,
+        "isMt": false,
+        "isDp": false,
+        "dpdealId": "17295947",
+        "requestUrl": "https://i.meituan.com/deal/category/1/banner?userId=0&cityId=73&utm_source=",
+        "openAppUrl": "https://m.dianping.com/cube/evoke/meituan.html?url=imeituan%3A%2F%2Fwww.meituan.com%2Fdeal%3Fchannel%3Dfood%26did%3D26687539&web=https%3A%2F%2Fmeishi.meituan.com%2Fi%2Fdeal%2F26687539%3Fstid%3D019032296837928515275757042931456002187_c24_e897e6b941386d576940e9bb185d5fe27%26cevent%3Dimt%252Fhomepage%252Fguess",
+        "appUrl": "imeituan://www.meituan.com/deal?channel=food&did=26687539",
+        "doNotOpenApp": false
+      },
+      "appDownloadConfig": {
+        "requestUrl": "https://i.meituan.com/deal/category/1/banner?userId=0&cityId=73&utm_source=",
+        "openAppUrl": "https://m.dianping.com/cube/evoke/meituan.html?url=imeituan%3A%2F%2Fwww.meituan.com%2Fdeal%3Fchannel%3Dfood%26did%3D26687539&web=https%3A%2F%2Fmeishi.meituan.com%2Fi%2Fdeal%2F26687539%3Fstid%3D019032296837928515275757042931456002187_c24_e897e6b941386d576940e9bb185d5fe27%26cevent%3Dimt%252Fhomepage%252Fguess",
+        "appUrl": "imeituan://www.meituan.com/deal?channel=food&did=26687539",
+        "doNotOpenApp": false
+      },
+      "pvLab": {
+        "custom": {
+          "source": "undefined"
+        }
+      },
+      "pageId": "c_yDrDR",
+      "title": "团购详情"
+    },
+    "pageId": "c_yDrDR",
+    "title": "团购详情",
+    "detailInfo": {
+      "id": 26687539,
+      "slug": "26687539",
+      "frontPoiCates": "36,1",
+      "channel": "food",
+      "ctype": 0,
+      "dtype": 0,
+      "soldsDesc": "半年销量 1.3万+",
+      "start": 1415116800,
+      "end": 1608220799,
+      "status": 0,
+      "state": 32,
+      "showtype": "normal",
+      "cityIds": [73],
+      "price": 13.8,
+      "value": 15,
+      "campaigns": [],
+      "campaignprice": 0,
+      "canbuyprice": 0,
+      "coupontitle": "仅售13.8元！价值15元的原味章鱼烧1份，提供免费WiFi。",
+      "brandname": "和米堂",
+      "range": "5店通用",
+      "nobooking": 1,
+      "terms": [{
+        "title": "有效期",
+        "content": ["2014.11.5 至 2020.12.17 23:59（周末、法定节假日通用）"]
+      }, {
+        "title": "使用时间",
+        "content": ["10:00-21:00"]
+      }, {
+        "title": "使用规则",
+        "content": ["团购用户不可同时享受商家其他优惠", "酒水饮料等问题，请致电商家咨询，以商家反馈为准", "如部分菜品因时令或其他不可抗因素导致无法提供，商家会用等价菜品替换，具体事宜请与商家协商", "店内无包间", "无需预约，消费高峰期可能需要等位", "商家提供免费WiFi", "发票问题请询问商家", "堂食外带均可，可免费打包"]
+      }],
+      "menu": [
+        [{
+          "subtype": 1,
+          "type": "0",
+          "content": "章鱼烧"
+        }, {
+          "subtype": 2,
+          "type": "128",
+          "content": "原味章鱼烧",
+          "specification": "1 份",
+          "total": "15",
+          "price": "15"
+        }, {
+          "subtype": 1,
+          "type": "0",
+          "content": "备注"
+        }, {
+          "subtype": 4,
+          "type": "0",
+          "content": "修改到店另付升级部分："
+        }, {
+          "subtype": 4,
+          "type": "0",
+          "content": "到店另付1元，升级为16元的玉米奶酪章鱼烧"
+        }, {
+          "subtype": 4,
+          "type": "0",
+          "content": "到店另付3元，升级为18元的肉松章鱼烧"
+        }, {
+          "subtype": 4,
+          "type": "0",
+          "content": "到店另付5元，升级为20元的培根芝士章鱼烧"
+        }, {
+          "subtype": 4,
+          "type": "0",
+          "content": "到店另付5元，升级为20元的德式香肠章鱼烧"
+        }, {
+          "subtype": 4,
+          "type": "0",
+          "content": "到店另付7元，升级为22元的大虾章鱼烧"
+        }]
+      ],
+      "howuse": {},
+      "voice": "",
+      "optionalattrs": {
+        "11": "{\"endDate\":\"\",\"startDate\":\"\",\"useDay\":\"1\"}",
+        "81": "原味章鱼烧"
+      },
+      "buybutton": {
+        "type": 4,
+        "text": "立即抢购",
+        "enabled": true
+      },
+      "rdploc": [{
+        "cityId": 73,
+        "poiid": 180597801,
+        "name": "和米堂（绿地新都会店）",
+        "lat": 34.770361,
+        "lng": 113.767941,
+        "addr": "金水区金水东路80号绿地新都会4层",
+        "phone": "15639124867",
+        "frontImg": "http://p0.meituan.net/bbia/88506c8d1d841bf7b1639fc221367dee150637.jpg@270w_270h_1e",
+        "showStatus": 1,
+        "avgScore": 4.5,
+        "showType": "food",
+        "isQueuing": 0,
+        "areaid": 30786,
+        "areaName": "祭城/大旺城",
+        "districtid": 166,
+        "districtname": "金水区",
+        "avgPrice": 18,
+        "iUrl": ""
+      }],
+      "curcityrdcount": 5,
+      "newrating": {
+        "count": 42552,
+        "rating": "4.5",
+        "recommend": 97,
+        "subcount": {
+          "1": 264,
+          "2": 717,
+          "3": 3687,
+          "4": 9256,
+          "5": 28628
+        }
+      },
+      "imgurl": "//p0.meituan.net/deal/__49103369__5564617.jpg",
+      "squareimgurl": "http://p0.meituan.net/w.h/deal/__49103381__1939283.jpg",
+      "solds": 283561,
+      "title": "原味章鱼烧1份，提供免费WiFi",
+      "refund": 3,
+      "fakerefund": 0,
+      "sevenrefund": 1,
+      "expireautorefund": 1,
+      "todayavaliable": true,
+      "isNewMarketDeal": false,
+      "canPayOrder": true
+    },
+    "stid": "019032296837928515275757042931456002187_c24_e897e6b941386d576940e9bb185d5fe27",
+    "commentLabelsInfo": [{
+      "count": 3511,
+      "isPositive": 1,
+      "tag": "回头客"
+    }, {
+      "count": 433,
+      "isPositive": 0,
+      "tag": "现做现卖"
+    }, {
+      "count": 299,
+      "isPositive": 1,
+      "tag": "上菜快"
+    }, {
+      "count": 122,
+      "isPositive": 0,
+      "tag": "朋友聚餐"
+    }, {
+      "count": 95,
+      "isPositive": 1,
+      "tag": "不用排队"
+    }, {
+      "count": 69,
+      "isPositive": 0,
+      "tag": "到店自提"
+    }, {
+      "count": 56,
+      "isPositive": 0,
+      "tag": "闺蜜聚会"
+    }, {
+      "count": 13,
+      "isPositive": 0,
+      "tag": "下午茶"
+    }, {
+      "count": 4,
+      "isPositive": 0,
+      "tag": "家庭聚餐"
+    }, {
+      "count": 2,
+      "isPositive": 0,
+      "tag": "店内消毒"
+    }],
+    "albumPicsUrl": ["//p0.meituan.net/deal/__49103369__5564617.jpg", "//p1.meituan.net/440.0/dealwatera/7dd4c082f777be1deb87f173f2bf66f5749980.jpg", "//p0.meituan.net/440.0/dealwatera/6094c327273f8570f94948177b7b5c062579312.jpg", "//p1.meituan.net/440.0/dealwatera/bea4ccddb6175cd8704de802fe2ceb9c2283953.jpg", "//p0.meituan.net/440.0/dealwatera/4a7d600f10739181365f7f1fae7c0a69875990.jpg", "//p0.meituan.net/440.0/dealwatera/c483f26986c365f58481084296381b47844359.jpg", "//p1.meituan.net/440.0/dealwatera/64dab6f235cd6874fe4fb18a2369b92d893022.jpg", "//p1.meituan.net/440.0/dealwatera/a3c49bdee324ba86546b934fdea06109905130.jpg", "//p0.meituan.net/440.0/dealwatera/244909ad3bf9c66071c805de0b410fef2780634.jpg", "//p1.meituan.net/440.0/dealwatera/8db10749cb8c5e34d51dfe2d7b1af34f2786017.jpg", "//p1.meituan.net/440.0/dealwatera/1b6db37353a6ab8396d839320e7bdb0a959993.jpg"],
+    "adsParam": {
+      "viewDealId": 26687539,
+      "viewShopId": "",
+      "categoryIds": "36,1"
+    },
+    "relatedDealParam": {
+      "did": 26687539
+    }
+  }
+
+}

@@ -1,0 +1,152 @@
+
+/**index.wxss**/
+.box{
+  margin-top: 120rpx;
+}
+.nav{
+   display:flex;
+   background: #fff;
+  
+}
+.li{
+  width: 45%;
+  text-align: center;
+}
+.li-img{
+  width: 120rpx;
+  height: 120rpx;
+}
+.li-text{
+  margin-top: -20rpx;
+}
+/* 全局背景颜色 */
+/* main  内容  */
+.main{
+  margin-top: 50rpx;
+  background: #fff;
+
+}
+.main-head{
+  display: flex;
+}
+.main-tit{
+  width: 50%;
+  text-align:center;
+  position: relative;
+}
+.show{
+font-size: 35rpx !important;
+height: 100rpx;
+}
+.show::after{
+  content:"";
+  width: 100rpx;
+  height: 8rpx;
+  position: absolute;
+  top: 50rpx;
+  right: 140rpx;
+  background-color: #ffc300;
+  border-radius: 15rpx;
+}
+.main-content{
+  background: #F3F3F3;
+  margin: 10rpx;
+}
+.main-li{
+  margin: 20rpx 20rpx;
+  display: flex;
+  flex-wrap: wrap;
+}
+/* 下边框 提示 */
+
+/* 导航栏 样式 */
+view {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.custom-bar {
+  background-color: #ffc300;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+.custom-bar__wrapper {
+  padding: 0 10rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-group {
+  width:400rpx;
+  height: 50rpx;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 60rpx;
+  padding: 0 0 0 60rpx;
+  margin-left: 60rpx;
+  background-color: #fff;
+}
+.search-group > input {
+  font-size: 25rpx;
+}
+.search-group > image {
+  height: 32rpx;
+  width: 32rpx;
+  margin-right: 20rpx
+}
+/* components/index-list/index-list.wxss */
+
+.indexmain{
+  height: 320rpx;
+  overflow: hidden;
+}
+.index-img{
+  width:100%;
+  height: 100%;
+}
+.index-text{
+  font-size: 24rpx;
+  margin: 10rpx;
+}
+.index-li{
+  background-color: #fff;
+  margin: 10rpx 10rpx;
+  border-radius: 20rpx;
+  width: 47%;
+}
+.main-span{
+  font-size: 20rpx;
+  color: #999;
+  margin: 10rpx;
+}
+.main-loot{
+  margin: auto;
+  width: 90%;
+  background-color: #ff5f1e;
+  border-radius: 10rpx;
+  height: 60rpx;
+  margin-bottom: 10rpx;
+
+}
+.main-loot-right{
+  float: right;
+  line-height: 60rpx;
+  margin-right: 20rpx;
+  font-weight: 700;
+  color:#692106 ;
+  font-size: 35rpx;
+}
+.main-loot-left{
+  float: left;
+  color: #fff;
+  line-height: 60rpx;
+}
+.span{
+  font-size: 20rpx;
+  color: #e5e5e5;
+  text-decoration: line-through;
+}

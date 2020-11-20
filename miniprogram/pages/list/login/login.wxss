@@ -1,0 +1,45 @@
+/* miniprogram/pages/login/login.wxss */
+/* logo */
+.title{
+  width: 200rpx;
+  height: 200rpx;
+  background-color: #ffc300;
+  border-radius: 25rpx;
+  margin: 140rpx auto 0 auto;
+  text-align: center;
+  line-height: 200rpx;
+  font-size: 80rpx;
+  font-weight: 700;
+
+}
+
+button{
+  background-color: #ffc300;
+  width: 900rpx;
+}
+/* 登录 */
+.login{
+  margin-top: 300rpx;
+}
+.login-text{
+  text-align: center;
+  color: #5e729a;
+  font-size: 26rpx;
+  margin-top: 20rpx;
+}
+.footer{
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 60rpx;
+
+}
+.footer view{
+  text-align: center;
+  font-size: 26rpx;
+  color: #999;
+}
+.footer text{
+  color: #fe8c00;
+}

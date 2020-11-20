@@ -1,0 +1,111 @@
+<!--pages/list.wxml-->
+
+<view class="box">
+  <!-- 头部 -->
+  <view class="head">
+    <navigator url="/pages/list/tapImg/tapImg">
+    <view class="head-img" >
+      <image src="{{username}}"></image>
+    </view>
+    </navigator>
+    <view class="head-text">
+      <view class="head-name" wx:if="{{show}}">{{show?name:'去登陆'}}</view>
+      <view class="head-name" wx:else  bindtap="tapName">去登陆</view>
+      <!-- <button wx:else open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo" style=" width: 160rpx;background :none;">去登陆</button> -->
+      <view class="head-text-span" bindtap="taplogOut">
+        账号管理
+      </view>
+    </view>
+  </view>
+  <!-- 服务 -->
+  <view class="myserve">
+    <view class="myserve-title"> 我的服务</view>
+    <view class="list-f">
+      <view class="list">
+        <image src="../../icon/order.png" class="my-img"></image>
+        <view> 订单</view>
+      </view>
+      <view class="list">
+        <image src="../../icon/collect.png" class="my-img"></image>
+        <view> 收藏</view>
+      </view>
+      <view class="list">
+        <image src="../../icon/discounts.png" class="my-img"></image>
+        <view> 券包</view>
+      </view>
+      <view class="list">
+        <image src="../../icon/vip.png" class="my-img"></image>
+        <view> 会员卡</view>
+      </view>
+    </view>
+  </view>
+  <!-- 钱包 -->
+  <view class="wallet">
+    <view class="myserve-title"> 我的服务</view>
+    <view class="bill">
+      <!-- li1 -->
+      <view class="bill-li">
+        <view class="bill-title">
+          <view class="span">
+        {{show?'0.00':'查看'}}
+          </view>
+          <view class="span-1">元</view>
+        </view>
+        <view class="bill-">余额</view>
+        <view class="bill-grey">现金可取</view>
+      </view>
+      <!-- li2 -->
+      <view class="bill-li">
+        <view class="bill-title">
+          <view class="span">
+            {{show?'0.00':'查看'}}
+          </view>
+          <view class="span-1">元</view>
+        </view>
+        <view class="bill-">立减金</view>
+        <view class="bill-grey">代使用</view>
+      </view>
+      <!-- li3 -->
+      <view class="bill-li">
+        <view class="bill-title">
+          <view class="span">
+               11
+          </view>
+          <view class="span-1">月</view>
+        </view>
+        <view class="bill-">我的账单</view>
+        <view class="bill-grey">消费记录</view>
+      </view>
+
+
+    </view>
+  </view>
+  <!-- 钱包 end -->
+  <!--  其他服务 -->
+  <view class="wallet">
+
+    <view class="myserve-title"> 我的服务</view>
+    <view class="list-f">
+      <view class="list">
+          <image src="../../icon/idea.png" class="list-img"></image>
+          <view class="list-text">规则中心</view>
+      </view>
+      <view class="list">
+          <image src="../../icon/day.png" class="list-img"></image>
+          <view class="list-text">每日神券</view>
+      </view>
+      <view class="list">
+          <image src="../../icon/rule.png" class="list-img"></image>
+          <view class="list-text">商家中心</view>
+      </view>
+      <view class="list">
+          <image src="../../icon/tax.png" class="list-img"></image>
+          <view class="list-text">个税计算器</view>
+      </view>
+    </view>
+
+  </view>
+
+  <!--  其他服务 end-->
+
+</view>

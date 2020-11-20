@@ -1,0 +1,8 @@
+<!--miniprogram/pages/components/star/star.wxml-->
+<template name="star">
+  <view class="star-img">
+    <block wx:for="{{arr}}" wx:key="index">
+       <image src="{{item}}" class="starUrl "></image>
+    </block>
+  </view> <text class="star-color"> {{ rating}}</text>
+</template>
