@@ -1,1 +1,91 @@
 /* miniprogram/pages/components/shopList/pay/pay.wxss */
+page {
+  background-color: #F3F3F3;
+}
+/* 头部 */
+.head{
+  background-color: #fff;
+  border-radius: 15rpx;
+
+  margin: 20rpx;
+}
+.head-img{
+  display: flex;
+}
+
+.head-img image{
+  width: 150rpx;
+  height: 150rpx;
+  margin: 30rpx 30rpx 0 30rpx;
+  
+}
+.head-left{
+ margin-top: 30rpx;
+}
+.head-tit{
+  font-size: 30rpx;
+}
+.head-span{
+  font-size: 24rpx;
+  color: #acb4c9;
+  line-height: 50rpx;
+}
+/* 小计 */
+.head-li{
+  display: flex;
+  justify-content:space-between;
+  margin: 30rpx;
+  padding-bottom: 20rpx;
+  border-top: solid 1rpx #e5e5e5;
+  line-height: 60rpx;
+  font-size: 24rpx;
+  color:#acb4c9; 
+}
+/* 头部 end*/
+
+
+/* 尾部 */
+.footer{
+  margin: 20rpx;
+  background-color: #fff;
+  border-radius: 15rpx;
+}
+.fonter-li{
+  line-height: 90rpx;
+  margin: 0 30rpx;
+  display: flex;
+  justify-content:space-between;
+  font-size: 24rpx;
+}
+.fonter-li text{
+  font-size: 24rpx;
+  color: #acb4c9;
+}
+.color{
+  color: #ff5f1e !important;
+  font-size: 35rpx !important;
+  font-weight: 700;
+
+}
+.bor{
+  border-bottom: 1rpx solid #e5e5e5;
+
+}
+/* 尾部 end*/
+
+/* 提交订单 */
+  .submit{
+    position: fixed;
+    width: 90%;
+    height: 80rpx;
+    border-radius: 10rpx;
+    bottom: 100rpx;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #ff5f1e;
+    color: #fff;
+    line-height: 80rpx;
+    text-align: center;
+  }
+/* 提交订单 end*/

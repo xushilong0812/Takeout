@@ -20,7 +20,7 @@ Page({
   onLoad: function (options) {
       let id=options.id
       db.collection("detail").where({id:id}).get().then(res=>{
-        // res.data[0].list.detailInfo.newrating   获取星级评论
+ 
         utils.star(res.data[0].list.detailInfo.newrating)
          
         //处理菜单
@@ -55,9 +55,12 @@ tapmap(e){
    })
 },
 // 支付页面跳转
-tappay(){
+tappay(e){
+  //把object数据转化为字符串
+  const str = JSON.stringify(e.currentTarget.dataset.data) 
+  //传递数据跳转
   wx.navigateTo({
-    url: './pay/pay',
+    url: './pay/pay?data='+str,
   })
 
 },

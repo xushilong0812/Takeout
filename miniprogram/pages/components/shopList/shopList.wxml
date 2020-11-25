@@ -22,13 +22,11 @@
     <view class="main-">
       <text class="mian-money"> {{list.detailInfo.price}}<text class="mian-money-span" style=" color: #39cebe;"> 元</text> </text>
       <text class="mian-money-span"> 门市价:{{list.detailInfo.value}}元 </text>
-      <view class="rush" bindtap="tappay">
+      <view class="rush" bindtap="tappay" data-data="{{list.detailInfo}}">
         立即抢购
       </view>
       <!-- 立即抢购 -->
-    
     </view>
-
   </view>
   <!-- 价格  end-->
   <!-- 退款 自动退 -->
@@ -112,7 +110,6 @@
     </view>
 
   </view>
-
 
   <!-- 购买须知 end-->
 

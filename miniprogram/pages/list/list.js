@@ -2,14 +2,13 @@
 const app=getApp()  //使用全局app
 const db =wx.cloud.database()//使用云函数
 Page({
-
   /**
    * 页面的初始数据
    */
   data: {
     username:'../../img/user.png',
-    name:"yAA20dasdasd",
-    show:false,
+    name:"去登陆",
+    show:true,
    
   },
   // 跳转到登录页
@@ -62,16 +61,27 @@ Page({
           data:{
           }
       }).then(res=>{
+    // console.log(res);
+    
         const openid=res.result.openid
         db.collection('users').where(
           {_openid:openid}
         ).get().then(res=>{
-          app.userInfo=Object.assign(app.userInfo,res.data[0])
-      this.setData({
-        username:app.userInfo.userPhone,
-        name:app.userInfo.userName,
-        show:true
-      })
+          console.log(res);
+          if(res.data.length>0){
+            app.userInfo=Object.assign(app.userInfo,res.data[0])
+            this.setData({
+              username:app.userInfo.userPhone,
+              name:app.userInfo.userName,
+              show:true
+            })
+          }else{
+            this.setData({
+             
+              show:false
+            })
+          }
+      
         })
       })
   },

@@ -10,7 +10,7 @@
   </view>
 </view>
 <!-- 头部 -->
-<view class="box">
+<view class="box" style="margin-top:{{navHeight}}px">
   <view wx:for="{{list}}" wx:for-index="idx" wx:for-item="item" wx:key="idx" class="nav">
     <view wx:for="{{item}}" wx:for-index="id1x" wx:for-item="item1" wx:key="id1x" view class="li">
       <image src="{{item1.imgUrl}}" class="li-img"></image>

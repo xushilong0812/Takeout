@@ -1,2 +1,56 @@
 <!--miniprogram/pages/components/shopList/pay/pay.wxml-->
-<text>miniprogram/pages/components/shopList/pay/pay.wxml</text>
+<view class="box">
+  <!-- 商品类表 -->
+  <view class="head">
+      <!--  -->
+      <view class="head-img">
+        <image src="{{list.imgurl}}"></image>
+        <view class="head-left">
+          <view class="head-tit">
+            {{list.brandname}}
+          </view>
+          <view class="head-span">
+            随时退 | 过期自动退
+          </view>
+          <view class="head-tit"> 
+            {{list.price}}￥
+          </view>
+      </view>
+      </view>
+    
+      <!-- 小计 -->
+      <view class="head-li">
+        <view>小计</view>
+        <text class="color">     {{list.price}}￥</text>
+      </view>
+
+  </view>
+  <!-- 商品类表 end-->
+  <!-- 金额 抵用卷  -->
+  <view class="footer">
+    <view class="fonter-li bor">
+      <view> 抵用券 </view>
+      <text> 暂无可用 </text>
+
+    </view>
+    <view class="fonter-li bor">
+      <view> 实付金额 </view>
+      <text class="color">     {{list.price}}￥ </text>
+    </view>
+    <view class="fonter-li">
+      <view> 手机号 </view>
+      <text>137****4444 </text>
+
+    </view>
+  </view>
+
+  <!-- 金额 抵用卷  end-->
+
+<!-- 提交订单 -->
+  <view class="submit">
+    ￥{{list.price}}提交订单
+  </view>
+
+<!-- 提交订单 end-->
+
+</view>
